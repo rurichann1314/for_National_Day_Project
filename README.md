@@ -2,6 +2,8 @@
 
 这是 APP 部2026年国庆部门题 KMP 分支仓库，仓库内提供了一个基本的 JVM 模板，可以直接在本仓库的基础上修改。
 
+![KMP](https://img.shields.io/badge/Kotlin_Multiplatform-7F52FF?style=flat&logo=kotlin&logoColor=white)
+
 ## 最低知识储备
 
 [从 Kotlin 到 Kotlin Multiplatform](https://git.itouc.cn/ITStudio_OUC/From_Kotlin_to_Kotlin-Multiplatform)
@@ -21,28 +23,30 @@
 
 ### 必要
 
-至少可以 roll D6 任意次
+- [x] 至少可以 roll D6 任意次
 
-可以实现 roll D4，D6，D8，D12任意切换
+- [ ] 可以实现 roll D4，D6，D8，D12任意切换
 
-可以实现 n D6
+- [ ] 可以实现 n D6
 
-可以实现 n D m
+- [ ] 可以实现 n D m
 
-可以实现 $n_1$ D $m_1$ ，$n_2$ D $m_2$ ...... 任意组合，最后点数取和
+- [ ] 可以实现 $n_1$ D $m_1$ ，$n_2$ D $m_2$ ...... 任意组合，最后点数取和
 
 ### 额外
 
-支持 Android 平台的编译与安装
+- [ ] 支持 Android 平台的编译与安装
 
-支持浏览器 WASM 编译
+- [ ] 支持浏览器 WASM 编译
 
-在 GitHub Pages 上部署 WASM 编译包
+- [ ] 在 GitHub Pages 上部署 WASM 编译包
 
-在 GitHub Action 上完成三大 JVM 平台安装包编译并 release
+- [ ] 在 GitHub Action 上完成三大 JVM 平台安装包编译并 release
 
-有应用图标
+- [ ] 有应用图标
 
-好看，达到我的审美
+- [ ] 好看，达到我的审美
 
 ## 提交方法
+
+先在
