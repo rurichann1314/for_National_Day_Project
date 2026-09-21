@@ -9,6 +9,7 @@
 [从 Kotlin 到 Kotlin Multiplatform](https://git.itouc.cn/ITStudio_OUC/From_Kotlin_to_Kotlin-Multiplatform)
 
 完全掌握：引入 Kotlin，进入 KMP
+
 简单了解：深入 Kotlin
 
 ## 小剧场
@@ -25,13 +26,13 @@
 
 - [x] 至少可以 roll D6 任意次
 
-- [ ] 可以实现 roll D4，D6，D8，D12任意切换
+- [ ] 可以实现 roll D4，D6，D8，D12（或者更多）任意切换
 
-- [ ] 可以实现 n D6
+- [ ] 可以实现 roll n D6
 
-- [ ] 可以实现 n D m
+- [ ] 可以实现 roll n D m
 
-- [ ] 可以实现 $n_1$ D $m_1$ ，$n_2$ D $m_2$ ...... 任意组合，最后点数取和
+- [ ] 可以实现 roll $n_1$ D $m_1$ , $n_2$ D $m_2$ ...... 任意组合，最后点数取和
 
 ### 额外
 
@@ -47,6 +48,12 @@
 
 - [ ] 好看，达到我的审美
 
+- [ ] 根据实现方法，代码格式化等的特殊得分
+
 ## 提交方法
 
-先在
+如果你是新开了一个代码仓库，请先在你的仓库里写一份 README，然后把你完成的评判标准先打上一个 x。
+
+把你的仓库上传到任意公开的 git 托管平台。
+
+在此仓库中开一个 issue，并写明你的仓库地址，我会在 issue 中给你点评。
