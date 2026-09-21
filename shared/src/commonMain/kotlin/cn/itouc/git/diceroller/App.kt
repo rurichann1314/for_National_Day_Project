@@ -25,7 +25,7 @@ import kotlin.random.Random
 fun App() {
     MaterialTheme {
         var showContent by remember { mutableStateOf(false) }
-        val r by remember(showContent) { mutableStateOf(Random.nextInt()) }
+        var randomInt by remember { mutableStateOf(Random.nextInt()) }
 
         Column(
             modifier = Modifier
@@ -34,7 +34,12 @@ fun App() {
                 .fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
-            Button(onClick = { showContent = !showContent }) {
+            Button(
+                onClick = {
+                    showContent = !showContent
+                    if (showContent) randomInt = Random.nextInt()
+                }
+            ) {
                 Text("Click me!")
             }
             AnimatedVisibility(showContent) {
@@ -43,7 +48,7 @@ fun App() {
                     horizontalAlignment = Alignment.CenterHorizontally,
                 ) {
                     Image(painterResource(Res.drawable.compose_multiplatform), null)
-                    Text("a random int: $r")
+                    Text("a random int: $randomInt")
                 }
             }
         }

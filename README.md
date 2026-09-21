@@ -8,7 +8,7 @@
 
 [从 Kotlin 到 Kotlin Multiplatform](https://git.itouc.cn/ITStudio_OUC/From_Kotlin_to_Kotlin-Multiplatform)
 
-完全掌握：引入 Kotlin，进入 KMP
+完全掌握：引入 Kotlin，第一个 KMP 应用
 
 简单了解：深入 Kotlin
 
