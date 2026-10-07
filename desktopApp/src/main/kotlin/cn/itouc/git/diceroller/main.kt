@@ -1,18 +1,18 @@
-包 cn.itouc.git.diceroller
+package cn.itouc.git.diceroller
 
-导入 androidx.compose.desktop.ui.tooling.preview.Preview
-导入 androidx.compose.foundation.layout.*
-导入 androidx.compose.foundation.rememberScrollState
-导入 androidx.compose.foundation.verticalScroll
-导入 androidx.compose.material.*
-导入 androidx.compose.runtime.*
-导入 androidx.compose.ui.Alignment
-导入 androidx.compose.ui.Modifier
-导入 androidx.compose.ui.unit.dp
-导入 androidx.compose.ui.window.Window
-导入 androidx.compose.ui.window.application
-导入 androidx.compose.ui.window.rememberWindowState
-导入 kotlin.random.Random
+import androidx.compose.desktop.ui.tooling.preview.Preview
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.window.Window
+import androidx.compose.ui.window.application
+import androidx.compose.ui.window.rememberWindowState
+import kotlin.random.Random
 
 val diceTypes = arrayOf("D4", "D6", "D8", "D10", "D12", "D20")
 
@@ -20,8 +20,8 @@ val diceTypes = arrayOf("D4", "D6", "D8", "D10", "D12", "D20")
 fun FeatureCard(title: String, content: @Composable () -> Unit) {
     Card(modifier = Modifier.fillMaxWidth(), elevation = 4.dp ) {
         Column(modifier = Modifier.padding(16.dp), horizontalAlignment = Alignment.CenterHorizontally) {
-            文本(text = title, style = MaterialTheme.typography.h6)
-            空白Spacer(modifier = Modifier.height(10.dp))
+            Text(text = title, style = MaterialTheme.typography.h6)
+            Spacer(modifier = Modifier.height(10.dp))
             content()
         }
     }
